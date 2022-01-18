@@ -6,7 +6,8 @@
     <Nullable>enable</Nullable>
     <Version>1.0.1</Version>
     <Authors>musictopia</Authors>
-    <PublishUrl></PublishUrl>
+	<Description>MVVM Framework intended to work with blazor.  Even uses source generators to work with EventAggravation.  Uses no reflection</Description>
+    <PublishUrl>https://github.com/musictopia2/MVVMFramework</PublishUrl>
   </PropertyGroup>
 
   <ItemGroup>
