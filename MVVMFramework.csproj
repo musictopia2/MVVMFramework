@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Version>1.0.1</Version>
+    <Authors>musictopia</Authors>
+    <PublishUrl></PublishUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommonBasicLibraries" Version="5.0.7" />
+    <PackageReference Include="EventAggregatorGenerator" Version="1.0.1" PrivateAssets="all" />
+	<PackageReference Include="MessengingHelpers" Version="1.0.1" />
+  </ItemGroup>
+</Project>
