@@ -1,18 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>7.0.2</Version>
+    <Version>9.0.1</Version>
     <Authors>musictopia</Authors>
-	<Description>MVVM Framework intended to work with blazor.  Even uses source generators to work with EventAggravation.  Uses no reflection</Description>
+    <Description>MVVM Framework intended to work with blazor.  Even uses source generators to work with EventAggravation.  Uses no reflection</Description>
     <PublishUrl>https://github.com/musictopia2/MVVMFramework</PublishUrl>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="CommonBasicLibraries" Version="8.0.1" />
+    <PackageReference Include="CommonBasicLibraries" Version="9.0.1" />
     <PackageReference Include="EventAggregatorGenerator" Version="1.0.13" PrivateAssets="all" />
-	<PackageReference Include="MessengingHelpers" Version="8.0.1" />
+    <PackageReference Include="MessengingHelpers" Version="9.0.1" />
   </ItemGroup>
 </Project>
